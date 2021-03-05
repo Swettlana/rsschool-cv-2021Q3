@@ -1,19 +1,18 @@
-#Sviatlana Kulik  
-******
+# Sviatlana Kulik
 
 **CONTACT**  
-*Minsk,*     
-*+375 29 7707250*  
-***e-mail: Stellla@tut.by***  
+_Minsk,_  
+_+375 29 7707250_  
+**_e-mail: Stellla@tut.by_**
 
-**ABOUT ME**  
+**ABOUT ME**
 
-**SKILL**  
+**SKILL**
 
-**MY PROJECTS**  
+**MY PROJECTS**
 
-**EDUCATION**  
+**EDUCATION**
 
-**EXPERIENCE**  
+**EXPERIENCE**
 
 **LANGUAGES**
