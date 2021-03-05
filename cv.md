@@ -7,6 +7,10 @@ _+375 29 7707250_
 
 **ABOUT ME**
 
+Responsible, hard-working and sociable person.
+
+\*\*
+
 **SKILL**
 
 **MY PROJECTS**
