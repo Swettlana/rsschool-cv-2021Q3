@@ -3,7 +3,7 @@
 
 **CONTACT**  
 *Minsk,*     
-*+375 29 ...*  
+*+375 29 7707250*  
 ***e-mail: Stellla@tut.by***  
 
 **ABOUT ME**  
