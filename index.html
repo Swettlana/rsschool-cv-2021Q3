@@ -4,49 +4,78 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--подключение файла со стилями-->
   <link rel="stylesheet" href=style.css>
-  <title>CV</title>
+  <title> Curriculum vitae </title>
 </head>
 <body>
-  <header>
+  <!--использование семантического тега header-->
+  <header class=containerHeader>
+    <!--использование уникального заголовка h1-->
     <h1> Mikhailava Swiatlana</h1>
-    <img src="Photo.PNG" alt="Photo" class="center-img">
+    <!--присутствует атрибут изображения alt-->
+    <div class=image>
+      <img src="Photo.PNG" alt="Photo">
+    </div>
+    <section>
+      <!--использование семантического тега  <section>-->
+      <h3> Contact</h3>
+      <!--использование уникального заголовка h3-->
+      <ul type="square">
+        <li> phone: +37529 770 72 50</li>
+        <li> e-mail: Stellla@tut.by</li>
+      </ul>
+    </section>
   </header>
   <main>
-    <div class=block>
-      <section>
-        <h4> CONTACT </h4>
-        Minsk,<br>
-        +375 29 ...<br>
-        e-mail: Stellla@tut.by<br>
-      </section>
-      <section>
-        <h4> ABOUT ME </h4>
-        engineer<br>
-      </section>
-      <section>
-        <h4> SKILL </h4>
-        hg<br>
-      </section>
-      <section>
-        <h4> MY PROJECTS</h4>
-        hg<br>
-      </section>
-      <section>
-        <h4> EDUCATION</h4>
-        higher education<br>
-      </section>
-      <section>
-        <h4> EXPERIENCE</h4>
-        jhgn<br>
-      </section>
-      <section>
-        <h4> LANGUAGES</h4>
-        English A1 <br>
-      </section>
-    </div>
+    <!--использование семантического тега для основного контента сайта-->
+    <section class=block>
+      <h3> About me </h3>
+      <div>Responsible, hard-working and sociable person. </div>
+    </section>
+    <section class=block>
+      <h3> Skill Highlights </h3>
+      <div>
+        I have the skills:
+        <ul>
+          <li>Pascal</li>
+          <li> Delphi</li>
+          <li> С#</li>
+          <li>JavaScript</li>
+        </ul> 
+        </div>
+    </section>
+    <section class=block>
+      <h3> My Projects</h3>
+      <div>
+        <pre>
+          <code>
+            function solution(str){
+              let i=str.length;
+              let strFinish='';
+                while (i>=1) 
+                {
+                  strFinish=strFinish+str[i-1];
+                  i=i-1;
+                }
+                return strFinish;
+              }
+          </code>
+        </pre>
+      </div>
+    </section>
+    <section class=block>
+      <h3> Education</h3>
+      <div> Belarusian National Technical University, 2008-2011 </div>
+    </section>
+    <section class=block>
+      <h3> Experience </h3>
+      <div></div>
+    </section>
+    <section class=block>
+      <h3> Languahes</h3>
+      <div>English - A1 </div>
+    </section>
   </main>
 </body>
 </html>
-
-
